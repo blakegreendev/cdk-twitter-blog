@@ -221,7 +221,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3Bucket264620FE"
+            "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3Bucket732E3E24"
           },
           "S3Key": {
             "Fn::Join": [
@@ -234,7 +234,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE"
+                          "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3VersionKeyCCCDE169"
                         }
                       ]
                     }
@@ -247,7 +247,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE"
+                          "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3VersionKeyCCCDE169"
                         }
                       ]
                     }
@@ -257,7 +257,7 @@
             ]
           }
         },
-        "Handler": "tweet.handler",
+        "Handler": "handler.main",
         "Role": {
           "Fn::GetAtt": [
             "TweetHandlerServiceRoleCFF5A352",
@@ -284,7 +284,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "twitter-blog/TweetHandler/Resource",
-        "aws:asset:path": "asset.6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
+        "aws:asset:path": "asset.5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5",
         "aws:asset:property": "Code"
       }
     },
@@ -369,17 +369,17 @@
       "Type": "String",
       "Description": "Artifact hash for asset \"91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3\""
     },
-    "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3Bucket264620FE": {
+    "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3Bucket732E3E24": {
       "Type": "String",
-      "Description": "S3 bucket for asset \"6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568\""
+      "Description": "S3 bucket for asset \"5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5\""
     },
-    "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE": {
+    "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3VersionKeyCCCDE169": {
       "Type": "String",
-      "Description": "S3 key for asset version \"6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568\""
+      "Description": "S3 key for asset version \"5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5\""
     },
-    "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568ArtifactHash8FC08E70": {
+    "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5ArtifactHash628069F6": {
       "Type": "String",
-      "Description": "Artifact hash for asset \"6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568\""
+      "Description": "Artifact hash for asset \"5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5\""
     }
   }
 }

@@ -140,21 +140,21 @@
                   }
                 }
               },
-              "6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568": {
-                "id": "6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
-                "path": "twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
+              "5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5": {
+                "id": "5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5",
+                "path": "twitter-blog/AssetParameters/5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5",
                 "children": {
                   "S3Bucket": {
                     "id": "S3Bucket",
-                    "path": "twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/S3Bucket"
+                    "path": "twitter-blog/AssetParameters/5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5/S3Bucket"
                   },
                   "S3VersionKey": {
                     "id": "S3VersionKey",
-                    "path": "twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/S3VersionKey"
+                    "path": "twitter-blog/AssetParameters/5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5/S3VersionKey"
                   },
                   "ArtifactHash": {
                     "id": "ArtifactHash",
-                    "path": "twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/ArtifactHash"
+                    "path": "twitter-blog/AssetParameters/5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5/ArtifactHash"
                   }
                 }
               }
@@ -403,7 +403,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3Bucket264620FE"
+                        "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3Bucket732E3E24"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -416,7 +416,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE"
+                                      "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3VersionKeyCCCDE169"
                                     }
                                   ]
                                 }
@@ -429,7 +429,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE"
+                                      "Ref": "AssetParameters5135ec3f0c0a311a7888f9810adbdce65659bf08608c761d3bc96017d24267e5S3VersionKeyCCCDE169"
                                     }
                                   ]
                                 }
@@ -439,7 +439,7 @@
                         ]
                       }
                     },
-                    "handler": "tweet.handler",
+                    "handler": "handler.main",
                     "role": {
                       "Fn::GetAtt": [
                         "TweetHandlerServiceRoleCFF5A352",

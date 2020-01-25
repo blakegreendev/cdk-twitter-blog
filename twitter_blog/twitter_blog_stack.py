@@ -38,7 +38,7 @@ class TwitterBlogStack(core.Stack):
             self, 'TweetHandler',
             runtime = _lambda.Runtime.PYTHON_3_7,
             code=_lambda.Code.asset('lambda'),
-            handler='tweet.handler',
+            handler='handler.main',
             timeout=core.Duration.seconds(300),
             layers=[twitterlayer, requestslayer, bs4layer]
         )
