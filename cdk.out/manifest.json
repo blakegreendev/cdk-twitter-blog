@@ -1,0 +1,567 @@
+{
+  "version": "1.21.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "twitter-blog": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "twitter-blog.template.json"
+      },
+      "metadata": {
+        "/twitter-blog": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690",
+              "id": "5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690",
+              "packaging": "zip",
+              "sourceHash": "5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690",
+              "s3BucketParameter": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690S3BucketA9EEE905",
+              "s3KeyParameter": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690S3VersionKey784D95A9",
+              "artifactHashParameter": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690ArtifactHashBE82EFEB"
+            },
+            "trace": [
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:370:23)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e",
+              "id": "39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e",
+              "packaging": "zip",
+              "sourceHash": "39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e",
+              "s3BucketParameter": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eS3Bucket1E438C78",
+              "s3KeyParameter": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eS3VersionKey875B3C72",
+              "artifactHashParameter": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eArtifactHash36DBEE12"
+            },
+            "trace": [
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:370:23)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3",
+              "id": "91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3",
+              "packaging": "zip",
+              "sourceHash": "91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3",
+              "s3BucketParameter": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3S3BucketF6034148",
+              "s3KeyParameter": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3S3VersionKey887392C0",
+              "artifactHashParameter": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3ArtifactHashDD1D6983"
+            },
+            "trace": [
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:370:23)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
+              "id": "6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
+              "packaging": "zip",
+              "sourceHash": "6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568",
+              "s3BucketParameter": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3Bucket264620FE",
+              "s3KeyParameter": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE",
+              "artifactHashParameter": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568ArtifactHash8FC08E70"
+            },
+            "trace": [
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:370:23)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/TwitterLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TwitterLayer74F1874E",
+            "trace": [
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:44:26)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690S3BucketA9EEE905",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690S3VersionKey784D95A9",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters5b980c3a65c1a797109094d3326214d38b23bf416049d4bdc07b64c255980690ArtifactHashBE82EFEB",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eS3Bucket1E438C78",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eS3VersionKey875B3C72",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629e/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters39463e419c48aa5fa2bae4b6f5966635993b4401863b1471988c9563ff21629eArtifactHash36DBEE12",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3S3BucketF6034148",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3S3VersionKey887392C0",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters91e886557203c9323e6f3ba36730fa8a9771a92d5d47b1169ba7cad1200f0ba3ArtifactHashDD1D6983",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:37:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3Bucket264620FE",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568S3VersionKey90E903BE",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/AssetParameters/6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters6d74ae1e3bc022c31350d625999fa86bc20bba6575e40ca9c5f20dc156a5d568ArtifactHash8FC08E70",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "Stack.addFileAsset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/core/lib/stack.js:360:22)",
+              "new Asset (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/RequestsLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RequestsLayer58858B55",
+            "trace": [
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:44:26)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/Bs4Layer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Bs4Layer76432D0D",
+            "trace": [
+              "new LayerVersion (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/layers.js:44:26)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/TweetHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TweetHandlerServiceRoleCFF5A352",
+            "trace": [
+              "new Role (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-iam/lib/role.js:36:22)",
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:59:35)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/TweetHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TweetHandlerServiceRoleDefaultPolicy55A3253F",
+            "trace": [
+              "new Policy (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-iam/lib/policy.js:30:26)",
+              "Role.addToPolicy (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-iam/lib/role.js:146:34)",
+              "Function.addToRolePolicy (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:38:19)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7589:51",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7589:25",
+              "Kernel._ensureSync (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8198:20)",
+              "Kernel.invoke (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7588:26)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/TweetHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TweetHandlerB094FA8A",
+            "trace": [
+              "new Function (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function.js:69:26)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/TweetHandler/AllowEventRuletwitterblogRuleE969592A": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TweetHandlerAllowEventRuletwitterblogRuleE969592A6C52090D",
+            "trace": [
+              "Function.addPermission (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:22:9)",
+              "Object.addLambdaPermission (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-events-targets/lib/util.js:29:17)",
+              "LambdaFunction.bind (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-events-targets/lib/lambda.js:18:16)",
+              "Rule.addTarget (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-events/lib/rule.js:68:36)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7589:51",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7589:25",
+              "Kernel._ensureSync (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8198:20)",
+              "Kernel.invoke (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7588:26)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/twitter-blog/Rule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rule4C995B7F",
+            "trace": [
+              "new Rule (/private/var/folders/16/7rb331ps7h7crlf9sdd0_j7m0000gn/T/jsii-kernel-tPIACF/node_modules/@aws-cdk/aws-events/lib/rule.js:25:26)",
+              "/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/blake/.local/share/virtualenvs/twitter-blog-O2yrCBg1/lib/python3.8/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "1.22.0",
+      "@aws-cdk/core": "1.22.0",
+      "@aws-cdk/region-info": "1.22.0",
+      "@aws-cdk/aws-iam": "1.22.0",
+      "@aws-cdk/aws-events": "1.22.0",
+      "@aws-cdk/aws-cloudwatch": "1.22.0",
+      "@aws-cdk/aws-kms": "1.22.0",
+      "@aws-cdk/aws-ssm": "1.22.0",
+      "@aws-cdk/aws-ec2": "1.22.0",
+      "@aws-cdk/aws-logs": "1.22.0",
+      "@aws-cdk/aws-s3": "1.22.0",
+      "@aws-cdk/assets": "1.22.0",
+      "@aws-cdk/aws-s3-assets": "1.22.0",
+      "@aws-cdk/aws-sqs": "1.22.0",
+      "@aws-cdk/aws-lambda": "1.22.0",
+      "@aws-cdk/aws-sns": "1.22.0",
+      "@aws-cdk/aws-cloudformation": "1.22.0",
+      "@aws-cdk/aws-codecommit": "1.22.0",
+      "@aws-cdk/aws-ecr": "1.22.0",
+      "@aws-cdk/aws-ecr-assets": "1.22.0",
+      "@aws-cdk/aws-sam": "1.22.0",
+      "@aws-cdk/aws-secretsmanager": "1.22.0",
+      "@aws-cdk/aws-codebuild": "1.22.0",
+      "@aws-cdk/aws-codepipeline": "1.22.0",
+      "@aws-cdk/aws-autoscaling-common": "1.22.0",
+      "@aws-cdk/aws-applicationautoscaling": "1.22.0",
+      "@aws-cdk/aws-elasticloadbalancing": "1.22.0",
+      "@aws-cdk/aws-route53": "1.22.0",
+      "@aws-cdk/aws-certificatemanager": "1.22.0",
+      "@aws-cdk/aws-elasticloadbalancingv2": "1.22.0",
+      "@aws-cdk/aws-autoscaling": "1.22.0",
+      "@aws-cdk/aws-sns-subscriptions": "1.22.0",
+      "@aws-cdk/aws-autoscaling-hooktargets": "1.22.0",
+      "@aws-cdk/aws-apigateway": "1.22.0",
+      "@aws-cdk/aws-cloudfront": "1.22.0",
+      "@aws-cdk/aws-route53-targets": "1.22.0",
+      "@aws-cdk/aws-servicediscovery": "1.22.0",
+      "@aws-cdk/aws-ecs": "1.22.0",
+      "@aws-cdk/aws-stepfunctions": "1.22.0",
+      "@aws-cdk/aws-events-targets": "1.22.0",
+      "jsii-runtime": "Python/3.8.1"
+    }
+  }
+}
