@@ -3,7 +3,7 @@
 
 ![CDK](img/twitterbot.png)
 
-![BLOG POST](https://greengocloud.com/2020/01/24/Build-a-Twitter-bot-with-AWS-Lambda-and-CDK/)
+**BLOG POST:** https://greengocloud.com/2020/01/24/Build-a-Twitter-bot-with-AWS-Lambda-and-CDK/
 
 This project is set up like a standard Python project.  The initialization
 process also creates a virtualenv within this project, stored under the .env
