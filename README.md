@@ -1,9 +1,9 @@
 
-# Welcome to your CDK Python project!
+# Build a Twitter bot with AWS Lambda and CDK
 
-This is a blank project for Python development with CDK.
+![CDK](img/twitterbot.png)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+![BLOG POST](https://greengocloud.com/2020/01/24/Build-a-Twitter-bot-with-AWS-Lambda-and-CDK/)
 
 This project is set up like a standard Python project.  The initialization
 process also creates a virtualenv within this project, stored under the .env
